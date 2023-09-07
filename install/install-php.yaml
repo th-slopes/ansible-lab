@@ -1,0 +1,9 @@
+---
+- name: Install PHP on the servers
+  hosts: all
+  become: true
+
+  tasks:
+    # first task --- instal apache2
+    - name: Install PHP 
+      command: apt install php
