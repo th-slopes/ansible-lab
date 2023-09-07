@@ -6,4 +6,4 @@
   tasks:
     # first task --- instal apache2
     - name: Install PHP 
-      command: apt install php
+      command: apt install php -y
